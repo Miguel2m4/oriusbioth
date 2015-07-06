@@ -22,6 +22,7 @@ header {
 }
 .distribuidores {
   background: #fff;
+  border-bottom: 1px solid #d4d4d4;
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
@@ -32,7 +33,8 @@ header {
   padding: 1em 0.5em 1em 0.5em;
 }
 .distribuidores .distri-bandera img {
-  padding-left: 81px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 45px;
 }
 .distribuidores .distri-bandera a {
@@ -41,6 +43,6 @@ header {
   font-family: Open-sans-b;
   font-size: 16px;
   position: absolute;
-  margin: -35px 0px 0px 70px;
+  margin: -35px 0px 0px 29px;
   text-decoration: none;
 }
