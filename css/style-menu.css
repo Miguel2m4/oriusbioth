@@ -10,7 +10,7 @@ body
 a {text-decoration: none;}
 .container {
     width: 100%;
-    max-width: 951px;
+    max-width: 960px;
     /*float: right;*/
     margin: -10px auto  7px auto;
     z-index: 20000;
@@ -96,7 +96,7 @@ a {text-decoration: none;}
     border-top: 1px solid #1d7a62;
 }
 
-@media screen and (max-width: 869px) {
+@media screen and (max-width: 960px) {
     .active {
         display: block;
     }
@@ -121,11 +121,11 @@ a {text-decoration: none;}
     }
 
 }
-@media screen and (max-width: 1123px){
+@media screen and (max-width: 960px){
 .container
 {
   width: 100%;
-  max-width: 887px;
+  max-width: 960px;
   /* float: right; */
   padding-top: 10px;
   margin: 0px auto 0px auto;

@@ -41,6 +41,15 @@
 		<a href="#">Perú</a>
 	</div>
 </div>
+<div class="distribuidores2">
+	<ul>
+		<li><a href="">Colombia</a></li>
+		<li><a href="">Chile</a></li>
+		<li><a href="">Costa Rica</a></li>
+		<li><a href="">Ecuador</a></li>
+		<li><a href="">Perú</a></li>
+	</ul>
+</div>
 <div class="top">
 	<div class="top-izq">
 	<a href=""><img src="images/logo.png"></a>
