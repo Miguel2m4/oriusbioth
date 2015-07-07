@@ -62,6 +62,7 @@
 </div>
 </header>
 <section>
+	<div class="imagen-fondo"></div>
 
 </section>
 <footer>
