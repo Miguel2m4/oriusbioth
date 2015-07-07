@@ -1,1 +1,85 @@
-@font-face{font-family:Open-sans-r;src:url("../fonts/OpenSans-Regular.ttf")}@font-face{font-family:Open-sans-b;src:url("../fonts/OpenSans-Bold.ttf")}@font-face{font-family:Open-sans-l;src:url("../fonts/OpenSans-Light.ttf")}body{background:#f2f2f2;margin:0;padding:0}header{margin:0 auto 0 auto;text-align:center;width:100%}a:focus{outline:none}.distribuidores{background:#fff;border-bottom:1px solid #d4d4d4;opacity:.9;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter:alpha(opacity=90);width:100%}.distribuidores .distri-bandera{display:inline-block;padding:1em .5em 1em .5em}.distribuidores .distri-bandera img{padding-left:40px;padding-right:40px;width:45px}.distribuidores .distri-bandera a{color:#0f3c54;font-weight:bold;font-family:Open-sans-b;font-size:16px;position:absolute;margin:-35px 0 0 29px;text-decoration:none}.distribuidores2{display:none}.top{background:#fff;border-bottom:3px solid #92cdd1;width:100%}.top-izq,.top-der{display:inline-block;vertical-align:top}.top-der nav{margin:33px 0 0 0}.top-izq img{padding:.8em;width:130px}@media screen and (max-width:960px){.distribuidores{display:none}.top-izp{width:100%}.top-der{width:100%}.top-der nav{margin:0 0 0 0}}
+@font-face {
+  font-family: Open-sans-r;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: Open-sans-b;
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: Open-sans-l;
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+body {
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: 100%;
+}
+a:focus {
+  outline: none;
+}
+.distribuidores {
+  background: #fff;
+  border-bottom: 1px solid #d4d4d4;
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  width: 100%;
+}
+.distribuidores .distri-bandera {
+  display: inline-block;
+  padding: 1em 0.5em 1em 0.5em;
+}
+.distribuidores .distri-bandera img {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 45px;
+}
+.distribuidores .distri-bandera a {
+  color: #0f3c54;
+  font-weight: bold;
+  font-family: Open-sans-b;
+  font-size: 16px;
+  position: absolute;
+  margin: -35px 0px 0px 29px;
+  text-decoration: none;
+}
+.distribuidores2 {
+  display: none;
+}
+.top {
+  background: #fff;
+  border-bottom: 3px solid #92cdd1;
+  width: 100%;
+}
+.top-izq,
+.top-der {
+  display: inline-block;
+  vertical-align: top;
+}
+.top-der nav {
+  margin: 33px 0px 0px 0px;
+}
+.top-izq img {
+  padding: 0.8em;
+  width: 130px;
+}
+@media screen and (max-width: 960px) {
+  .distribuidores {
+    display: none;
+  }
+  .top-izp {
+    width: 100%;
+  }
+  .top-der {
+    width: 100%;
+  }
+  .top-der nav {
+    margin: 0px 0px 0px 0px;
+  }
+}
