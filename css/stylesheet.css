@@ -87,6 +87,9 @@ a:focus {
   .distribuidores {
     display: none;
   }
+  .imagen-fondo {
+    height: 376px;
+  }
   .top-izp {
     width: 100%;
   }
