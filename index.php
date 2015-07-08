@@ -80,6 +80,23 @@
 			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biocaña</h2></a>
 			</div>
 		</div>
+
+		<div class="seccion-1">
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biopalma</h2></a>
+			</div>
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Programa Bioarroz</h2></a>
+			</div>
+		</div>
+		<div class="seccion-2">
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biobanano</h2></a>
+			</div>
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Programa Bioflores</h2></a>
+			</div>
+		</div>
 	</div>
 
 </section>
