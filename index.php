@@ -63,6 +63,24 @@
 </header>
 <section>
 	<div class="imagen-fondo"></div>
+	<div class="seccion-cont">
+		<div class="seccion-1">
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Suelo Sano Cultivo Sano</h2></a>
+			</div>
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Como hacer un buen abono orgánico</h2></a>
+			</div>
+		</div>
+		<div class="seccion-2">
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biocafe</h2></a>
+			</div>
+			<div class="programas">
+			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biocaña</h2></a>
+			</div>
+		</div>
+	</div>
 
 </section>
 <footer>
