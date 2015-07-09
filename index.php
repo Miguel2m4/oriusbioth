@@ -74,10 +74,10 @@
 		</div>
 		<div class="seccion-2">
 			<div class="programas">
-			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biocafe</h2></a>
+			<a href="#"><img src="images/programa-cafe.png"><h2>Programa Biocafe</h2></a>
 			</div>
 			<div class="programas">
-			<a href="#"><img src="images/programa-abono.png"><h2>Programa Biocaña</h2></a>
+			<a href="#"><img src="images/programa-cana.png"><h2>Programa Biocaña</h2></a>
 			</div>
 		</div>
 
@@ -86,7 +86,7 @@
 			<a href="#"><img src="images/programa-palma.png"><h2>Programa Biopalma</h2></a>
 			</div>
 			<div class="programas">
-			<a href="#"><img src="images/programa-abono.png"><h2>Programa Bioarroz</h2></a>
+			<a href="#"><img src="images/programa-arroz.png"><h2>Programa Bioarroz</h2></a>
 			</div>
 		</div>
 		<div class="seccion-2">
@@ -94,7 +94,7 @@
 			<a href="#"><img src="images/programa-banano.png"><h2>Programa Biobanano</h2></a>
 			</div>
 			<div class="programas">
-			<a href="#"><img src="images/programa-abono.png"><h2>Programa Bioflores</h2></a>
+			<a href="#"><img src="images/programa-flores.png"><h2>Programa Bioflores</h2></a>
 			</div>
 		</div>
 	</div>

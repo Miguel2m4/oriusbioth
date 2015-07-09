@@ -130,8 +130,12 @@ a:focus {
   .imagen-fondo {
     height: 376px;
   }
+  .seccion-cont {
+    padding: 2.8em 0em 2.8em 0em;
+  }
   .seccion-1,
   .seccion-2 {
+    padding: 0.8em 0em 0em 0em;
     width: 98%;
   }
   .seccion-1 .programas {
