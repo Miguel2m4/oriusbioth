@@ -78,6 +78,13 @@ a:focus {
   text-align: center;
   width: 100%;
 }
+.seccion-cont-2 {
+  background: #dceff0;
+  color: #3a3a3a;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: 100%;
+}
 .seccion-1,
 .seccion-2 {
   display: inline-block;
@@ -111,6 +118,28 @@ a:focus {
   font-size: 18px;
   color: #92cdd1;
 }
+.seccion-texto {
+  width: 22%;
+}
+.seccion-texto strong {
+  font-family: Open-sans-b;
+}
+.seccion-texto a {
+  color: #3a3a3a;
+}
+.seccion-texto h2 {
+  font-family: Open-sans-b;
+  font-size: 18px;
+}
+.seccion-img img {
+  width: 128px;
+}
+.seccion-img,
+.seccion-texto {
+  display: inline-block;
+  vertical-align: top;
+  padding: 2.5em 0.8em 2.5em 0.8em;
+}
 .top-izq,
 .top-der {
   display: inline-block;
@@ -143,6 +172,16 @@ a:focus {
   }
   .seccion-2 .programas {
     width: 95%;
+  }
+  .seccion-img {
+    padding: 1.5em 0px 0px 0px;
+  }
+  .seccion-img,
+  .seccion-texto {
+    width: 94%;
+  }
+  .seccion-texto {
+    padding: 0.5em 0.6em 0.5em 0.6em;
   }
   .top-izp {
     width: 100%;
