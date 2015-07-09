@@ -100,16 +100,16 @@
 	</div>
 	<div class="seccion-cont-2">
 		<div class="seccion-img">
-			<a href=""><img src="images/premio.png"></a>
+			<a href="http://ascolfi.org/index.php/modules-menu/premio-hector-delgado-zambrano" target="blank"><img src="images/premio.png"></a>
 		</div>
 		<div class="seccion-texto">
-			<a href=""><p>Reconocimiento al a Vida y Obra de un Investigador en Colombia</p><p><strong>HECTOR DELGADO ZAMBRANO</strong></p></a>
+			<a href="http://ascolfi.org/index.php/modules-menu/premio-hector-delgado-zambrano" target="blank"><p>Reconocimiento al a Vida y Obra de un Investigador en Colombia</p><p><strong>HECTOR DELGADO ZAMBRANO</strong></p></a>
 		</div>
 		<div class="seccion-img">
-			<a href=""><img src="images/camara.png"></a>
+			<a href="https://www.youtube.com/user/oriusbiotec" target="blank"><img src="images/camara.png"></a>
 		</div>
 		<div class="seccion-texto">
-		<a href=""><h2>TESTIMONIOS</h2>
+		<a href="https://www.youtube.com/user/oriusbiotec" target="blank"><h2>TESTIMONIOS</h2>
 			<p>Entre a nuestro canal de videos para ver testimonios acerca de nuestras soluciones y el impacto que tienen en los cultivos.</p></a>
 		</div>
 	</div>
