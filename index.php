@@ -113,6 +113,19 @@
 			<p>Entre a nuestro canal de videos para ver testimonios acerca de nuestras soluciones y el impacto que tienen en los cultivos.</p></a>
 		</div>
 	</div>
+	<div class="seccion-cont-3">
+		<div class="seccion-principal-blog">
+			<h3>Blog Biotecnologíco</h3>
+			<p>Mejore su produccion de aguacate con biotecnologia.</p>
+			<a href="">leer Mas</a>
+		</div>
+		<div class="seccion-ultimas-blog">
+			<h4>Ultimos articulos</h4>
+			<p>Mejore su produccion de aguacate con biotecnologia.</p>
+			<hr class="divi1">
+			<p>Mejore su produccion de aguacate con biotecnologia.</p>
+		</div>
+	</div>
 
 </section>
 <footer>
