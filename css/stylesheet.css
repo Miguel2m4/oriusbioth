@@ -21,8 +21,34 @@ header {
   text-align: center;
   width: 100%;
 }
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0;
+}
+footer {
+  background: #335567;
+}
 a:focus {
   outline: none;
+}
+.copyright img {
+  width: 70px;
+  padding-bottom: 0.5em;
+}
+.copyright {
+  color: #fff;
+  font-family: Open-sans-l;
+  font-size: 12px;
+  text-shadow: 0.01em 0.08em #002c27;
+}
+.copyright p {
+  margin-top: 19px;
+}
+.copyright a {
+  color: #fff;
 }
 .distribuidores {
   background: #fff;
@@ -53,6 +79,14 @@ a:focus {
 .distribuidores2 {
   display: none;
 }
+.divi2 {
+  border: solid #7b919d;
+  border-width: 1px 0 0;
+  color: #7b919d;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0;
+}
 .top {
   background: #fff;
   border-bottom: 3px solid #92cdd1;
@@ -70,6 +104,13 @@ a:focus {
   background-size: cover;
   height: 614px;
   width: 100%;
+}
+.pie {
+  margin: auto 0px auto 0px;
+  text-align: center;
+}
+.redes p {
+  margin: 0px;
 }
 .seccion-cont {
   background: #fff;
@@ -92,6 +133,33 @@ a:focus {
   padding: 0.8em 0em 1.8em 0em;
   text-align: center;
   width: 100%;
+}
+.seccion-contacto {
+  background: #395e72;
+  margin: 0px auto 0px auto;
+  padding-top: 2px;
+  text-align: center;
+  width: 100%;
+}
+.seccion-contacto p {
+  color: #fff;
+  display: inline-block;
+  font-family: Open-sans-l;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0.8em;
+}
+.seccion-contacto a {
+  background: #c34a44;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border-bottom: 3px solid #983a35;
+  color: #fff;
+  font-family: Open-sans-b;
+  padding: 0.6em;
+}
+.seccion-contacto a:hover {
+  background: #983a35;
 }
 .seccion-1,
 .seccion-2 {
@@ -215,6 +283,9 @@ a:focus {
   }
   .seccion-2 .programas {
     width: 95%;
+  }
+  .seccion-contacto {
+    padding-bottom: 1.6em;
   }
   .seccion-img {
     padding: 1.5em 0px 0px 0px;

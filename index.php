@@ -119,6 +119,7 @@
 			<p>Mejore su produccion de aguacate con biotecnologia.</p>
 			<br>
 			<a href="">leer Mas</a>
+			<br>
 		</div>
 		<div class="seccion-ultimas-blog">
 			<h4>Ultimos articulos</h4>
@@ -127,9 +128,23 @@
 			<p><a href="">Mejore su produccion de aguacate con biotecnologia.</a></p>
 		</div>
 	</div>
-
+	<div class="seccion-contacto">
+		<p>Tienen alguna duda acerca de nuestras soluciones?</p><a href="">Contáctenos</a>
+	</div>
 </section>
 <footer>
+	<div class="pie">
+			<div class="redes">
+				<p>Redes sociales</p>
+			</div>
+			<hr class="divi2">
+			<div class="copyright">
+            <p>Copyright © Oriusbiotech SAS, 2015.Todos los derechos reservados diseñado por <a href="http://inngeniate.com/" target="blank"> Inngeniate.com</a></p>
+            <div class="logo">
+                <img src="images/logoinn.png">
+            </div>
+        	</div>
+	</div>
 
 </footer>
 
