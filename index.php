@@ -117,13 +117,14 @@
 		<div class="seccion-principal-blog">
 			<h3>Blog Biotecnologíco</h3>
 			<p>Mejore su produccion de aguacate con biotecnologia.</p>
+			<br>
 			<a href="">leer Mas</a>
 		</div>
 		<div class="seccion-ultimas-blog">
 			<h4>Ultimos articulos</h4>
-			<p>Mejore su produccion de aguacate con biotecnologia.</p>
+			<p><a href="">Mejore su produccion de aguacate con biotecnologia.</a></p>
 			<hr class="divi1">
-			<p>Mejore su produccion de aguacate con biotecnologia.</p>
+			<p><a href="">Mejore su produccion de aguacate con biotecnologia.</a></p>
 		</div>
 	</div>
 
