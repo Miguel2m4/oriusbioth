@@ -9,7 +9,7 @@
 				<a href="">Catalogo</a>
 			</li>
 			<li>
-				<a href="">Escritos Técnicos</a>
+				<a href="escritos-tecnicos">Escritos Técnicos</a>
 			</li>
 			<li>
 				<a href="">Resultados Investigación Aplicada</a>
