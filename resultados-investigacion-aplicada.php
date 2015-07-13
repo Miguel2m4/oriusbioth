@@ -68,8 +68,10 @@
 	</div>
 	<div class="contenido">
 
+	<div id="investiga-mos">
+
 		<div class="Resultados-componente">
-			<a href="#">
+			<a href="#top-contacto" id="mostrar-con">
 			<div class="Resultados-componente-imagen"></div>
 			<p>ABONO ORGANICO</p>
 			<div class="Resultados-componente-archivos">
@@ -129,7 +131,28 @@
 		</div>
 
 
+	</div><!-- cierra div investiga-mos -->
 
+	<div id="investiga-oculta" name="top-contacto">
+		<h2>ABONO ORGANICO</h2>
+
+	<div class="item-investiga">
+		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
+		<a href="">Descargar</a>
+	</div>
+
+	<div class="item-investiga">
+		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
+		<a href="">Descargar</a>
+	</div>
+
+	<div class="item-investiga">
+		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
+		<a href="">Descargar</a>
+	</div>
+
+
+	</div>
 	</div>
 
 
@@ -142,6 +165,7 @@
 <footer>
 	<?php include("footer.php"); ?>
 </footer>
+<script src="js/mostrar-invest.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
