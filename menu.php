@@ -12,7 +12,7 @@
 				<a href="escritos-tecnicos">Escritos Técnicos</a>
 			</li>
 			<li>
-				<a href="">Resultados Investigación Aplicada</a>
+				<a href="resultados-investigacion-aplicada">Resultados Investigación Aplicada</a>
 			</li>
 		</ul>
 	</div>

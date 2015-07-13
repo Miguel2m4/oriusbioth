@@ -53,7 +53,7 @@ a:focus
 	color #fff
 
 .contenido
-	margin 0px auto 0px auto
+	margin 0px auto 20px auto
 	width 70%
 
 .distribuidores
@@ -137,6 +137,34 @@ a:focus
 .pie
 	margin auto 0px auto 0px
 	text-align center
+
+.Resultados-componente
+	border-radius 3px
+	box-shadow 0px 2px 1px 0px rgba(50,50,50,0.3)
+	display inline-block
+	margin 10px 10px 10px 10px
+	text-align center
+	vertical-align top
+	width 30%
+	&-imagen
+		background-image url(../images/investiga/bag1.jpg)
+		background-position center center
+		background-repeat no-repeat
+		background-size cover
+		height 130px
+		transition all .2s ease-in-out
+		width 100%
+	&-imagen:hover
+		transform: scale(0.95)
+	&-archivos p
+		font-family Open-sans-l !important
+
+.Resultados-componente a
+	text-decoration none
+
+.Resultados-componente p
+	color #0f3c54
+	font-family Open-sans-b
 
 .redes
 	padding 1em 0px 1em 0px
@@ -334,6 +362,11 @@ a:focus
 
 	.imagen-fondo
 		height 376px
+
+	.Resultados-componente
+		width 90%
+		&-imagen:hover
+			transform none
 
 	.seccion-cont
 		padding 2.8em 0em 2.8em 0em
