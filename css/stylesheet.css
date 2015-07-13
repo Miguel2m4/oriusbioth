@@ -227,12 +227,14 @@ a:focus {
 .item-investiga a:hover {
   background: #5caeb4;
 }
+.investiga-cerrar {
+  text-align: right;
+}
 .investiga-cerrar a {
   background: #335567;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   color: #fff;
-  float: right;
   margin-top: -100px;
   padding: 0.5em;
 }
