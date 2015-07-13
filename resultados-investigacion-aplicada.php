@@ -52,7 +52,7 @@
 </div>
 <div class="top">
 	<div class="top-izq">
-	<a href=""><img src="images/logo.png"></a>
+	<a href="/"><img src="images/logo.png"></a>
 	</div>
 	<div class="top-der">
 	<?php include("menu.php"); ?>
