@@ -7,7 +7,7 @@
 <meta name="keywords" lang="es" content="bioinsumos, biotecnología, bioplaguicidas, plaguicidas biológicos, productos biológicos, producción agrícola, producción pecuaria, producción acuícola, problemas ambientales, agricultura orgánica, buenas prácticas agrícolas, alimentos sanos, agroexportadores, café especial, bionutrición, PGPR, producción orgánica, aguas residuales, abono orgánico, suelo sano - cultivo sano, pozos sépticos, estanques de oxidación,  sostenibilidad, producción sostenible, menor impacto ambiental, agricultura, ganaderia, banano, arroz, café, flores, invernaderos, producción tecnificada, agricultura de precisión">
 <meta name="robots" content="All">
 <meta name="description" lang="es" content="Soluciones con Biotecnología! ORIUS BIOTECH es una organización de base tecnológica que investiga, produce, desarrolla,  comercializa y exporta soluciones con biotecnología para los productores agrícolas, pecuarios, acuícolas y para el manejo ambiental, para lograr una producción con menor impacto ambiental y sostenible.">
-<title>Tricho-D | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
+<title>Bio-fungo | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
@@ -64,36 +64,27 @@
 <section>
 	<div class="tooper"></div>
 	<div class="mashead">
-	<h2>Tricho-D</h2>
+	<h2>Bio-fungo</h2>
 	</div>
 	<div class="contenido">
 	<div class="soluciones">
-	<img src="images/trichod.png">
-	<h3>Bloquea la acción de las enfermedades en el suelo y su cultivo!</h3>
-	<p>Tricho-D WP es un Agente Biológico que actúa en el suelo como Biofungicida prWP es un acondicionador de suelo, bioestimulante y agente biológico que actúa en el suelo bloqueando la acción de los principales fitopatógenos que enferman las raíces y los cultivos agrícolas. Es un antagonista de los fitopatógenos para un suelo sano y un cultivo sano. Es formulado con esporas en latencia del hongo Trichoderma harzianum.</p>
+	<img src="images/biofungo.png">
+	<h3>Previene enfermedades en las flores y frutos!</h3>
+	<p>BIOFUNGO es un Agente Biológico que actúa en el cultivo como Biofungicida preventivo y Antagonista de los fitopatógenos que enferman los cultivos agrícolas como Botrytis cinérea, Sphaerotheca pannosa, Ceratocystis fimbriata, Alternaria sp, Moniliophthora sp y otros que enferman tallos, hojas, flores y frutos, para lograr un cultivo sano y con menos enfermedades.</p>
 
 
-	<p><a href="">Comprar Tricho-D WP 100g</a></p>
-	<p><a href="">Comprar Tricho-D WP 300g</a></p>
+	<p><a href="">Comprar Biofungo WP 100g</a></p>
+	<p><a href="">Comprar Biofungo WP 300g</a></p>
 
 	<p><strong>Documentos Técnicos</strong></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D WP - FICHA TECNICA</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BIOFUNGO WP - FICHA TECNICA</a></p>
 
 	<p><strong>Respaldo (certificados)</strong></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D-BCS-AUTORIZACIÓN AGRORGANICA ES</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D-BCS-AUTHORIZATIÓN AGRORGANICA EN</a></p>
-
-	<p><strong>Publicidad</strong></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D-SUELO_SANO-CULTIVO_SANO-AVISO</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D FOLLETO</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D - SEMILLA SANA</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D - FLORES FOLLETO</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D - ARROZ - FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BIOFUNGO-BCS-AUTORIZACIÓN AGRORGANICA ES</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BIOFUNGO-BCS-AUTHORIZATIÓN AGRORGANICA EN</a></p>
 
 
 	</div>
-
-
 
 	</div>
 

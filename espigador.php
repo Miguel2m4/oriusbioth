@@ -7,7 +7,7 @@
 <meta name="keywords" lang="es" content="bioinsumos, biotecnología, bioplaguicidas, plaguicidas biológicos, productos biológicos, producción agrícola, producción pecuaria, producción acuícola, problemas ambientales, agricultura orgánica, buenas prácticas agrícolas, alimentos sanos, agroexportadores, café especial, bionutrición, PGPR, producción orgánica, aguas residuales, abono orgánico, suelo sano - cultivo sano, pozos sépticos, estanques de oxidación,  sostenibilidad, producción sostenible, menor impacto ambiental, agricultura, ganaderia, banano, arroz, café, flores, invernaderos, producción tecnificada, agricultura de precisión">
 <meta name="robots" content="All">
 <meta name="description" lang="es" content="Soluciones con Biotecnología! ORIUS BIOTECH es una organización de base tecnológica que investiga, produce, desarrolla,  comercializa y exporta soluciones con biotecnología para los productores agrícolas, pecuarios, acuícolas y para el manejo ambiental, para lograr una producción con menor impacto ambiental y sostenible.">
-<title>Tricho-D | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
+<title>Espigador | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
@@ -64,32 +64,22 @@
 <section>
 	<div class="tooper"></div>
 	<div class="mashead">
-	<h2>Tricho-D</h2>
+	<h2>Espigador</h2>
 	</div>
 	<div class="contenido">
 	<div class="soluciones">
-	<img src="images/trichod.png">
-	<h3>Bloquea la acción de las enfermedades en el suelo y su cultivo!</h3>
-	<p>Tricho-D WP es un Agente Biológico que actúa en el suelo como Biofungicida prWP es un acondicionador de suelo, bioestimulante y agente biológico que actúa en el suelo bloqueando la acción de los principales fitopatógenos que enferman las raíces y los cultivos agrícolas. Es un antagonista de los fitopatógenos para un suelo sano y un cultivo sano. Es formulado con esporas en latencia del hongo Trichoderma harzianum.</p>
+	<img src="images/espigador.png">
+	<h3>Granos con mas Peso y mas Calidad!</h3>
+	<p>ESPIGADOR es un Fertilizante Orgánico Mineral formulado con minerales quelatados en aminoácidos de rápida asimilación que aplicado en prefloración y floración, que activa la energía y el metabolismo en las plantas mejorando el balance nutricional en los cultivos de Gramíneas como Arroz, Sorgo, Cebada, Avena, Trigo y Maíz, disminuyendo el vaneamiento de la espiga, logrando un máximo llenado del grano, mayor ganancia en peso del grano y una muy buena calidad final en la molinería. Estos quelatos que se obtienen por acción microbiana y enzimática son de rápida asimilación por la planta, le aportan la energía y los nutrientes necesarios en forma inmediata para activar los cultivos, recuperarlos y darle el balance nutricional para mejorar la capacidad productiva del cultivo.</p>
 
 
-	<p><a href="">Comprar Tricho-D WP 100g</a></p>
-	<p><a href="">Comprar Tricho-D WP 300g</a></p>
+	<p><a href="">Comprar Espigador SC Litro</a></p>
 
 	<p><strong>Documentos Técnicos</strong></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D WP - FICHA TECNICA</a></p>
-
-	<p><strong>Respaldo (certificados)</strong></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D-BCS-AUTORIZACIÓN AGRORGANICA ES</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D-BCS-AUTHORIZATIÓN AGRORGANICA EN</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> ESPIGADOR SC - FICHA TECNICA</a></p>
 
 	<p><strong>Publicidad</strong></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D-SUELO_SANO-CULTIVO_SANO-AVISO</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D FOLLETO</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D - SEMILLA SANA</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D - FLORES FOLLETO</a></p>
-	<p><a href="" target="blank"><span class="icon-descarga"></span> TRICHO-D - ARROZ - FOLLETO</a></p>
-
+	<p><a href="" target="blank"><span class="icon-descarga"></span> ESPIGADOR - FOLLETO</a></p>
 
 	</div>
 

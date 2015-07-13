@@ -77,24 +77,24 @@
 	<p><a href="">Comprar Bacthon SC Litro</a></p>
 
 	<p><strong>Documentos Técnicos</strong></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON SC -FICHA TECNICA</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON SC -FICHA TECNICA</a></p>
 
 	<p><strong>Respaldo (certificados)</strong></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON-BCS-AUTORIZACIÓN AGRORGANICA ES</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON-BCS-AUTHORIZATIÓN AGRORGANICA EN</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON-BCS-AUTORIZACIÓN AGRORGANICA ES</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON-BCS-AUTHORIZATIÓN AGRORGANICA EN</a></p>
 
 	<p><strong>Publicidad</strong></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON EN PIÑA FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON + TRICHO-D EN ARROZ</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON + TRICHO-D EN BANANO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON + TRICHO-D EN CAÑA DE AZUCAR - FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON + TRICHO-D - FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON EN FLORES FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON EN ARROZ FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON EN PAPA - FOLLETO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON EN CAFÉ PARA GERMINADOR Y ALMACIGO</a></p>
-	<p><a href="" blank="target"><span class="icon-descarga"></span> BACTHON EN CAFÉ PARA SEMILLEROS Y ALMACIGOS</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON EN PIÑA FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON + TRICHO-D EN ARROZ</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON + TRICHO-D EN BANANO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON + TRICHO-D EN CAÑA DE AZUCAR - FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON + TRICHO-D - FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON EN FLORES FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON EN ARROZ FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON EN PAPA - FOLLETO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON EN CAFÉ PARA GERMINADOR Y ALMACIGO</a></p>
+	<p><a href="" target="blank"><span class="icon-descarga"></span> BACTHON EN CAFÉ PARA SEMILLEROS Y ALMACIGOS</a></p>
 
 	</div>
 
