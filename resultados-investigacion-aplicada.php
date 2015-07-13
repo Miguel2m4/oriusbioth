@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width , initial-scale=1 ,maximum-scale=1 user-scalable=no" />
-<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" > -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" >
 <meta name="keywords" lang="es" content="bioinsumos, biotecnología, bioplaguicidas, plaguicidas biológicos, productos biológicos, producción agrícola, producción pecuaria, producción acuícola, problemas ambientales, agricultura orgánica, buenas prácticas agrícolas, alimentos sanos, agroexportadores, café especial, bionutrición, PGPR, producción orgánica, aguas residuales, abono orgánico, suelo sano - cultivo sano, pozos sépticos, estanques de oxidación,  sostenibilidad, producción sostenible, menor impacto ambiental, agricultura, ganaderia, banano, arroz, café, flores, invernaderos, producción tecnificada, agricultura de precisión">
 <meta name="robots" content="All">
 <meta name="description" lang="es" content="Soluciones con Biotecnología! ORIUS BIOTECH es una organización de base tecnológica que investiga, produce, desarrolla,  comercializa y exporta soluciones con biotecnología para los productores agrícolas, pecuarios, acuícolas y para el manejo ambiental, para lograr una producción con menor impacto ambiental y sostenible.">
