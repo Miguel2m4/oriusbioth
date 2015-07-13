@@ -135,20 +135,26 @@
 
 	<div id="investiga-oculta" name="top-contacto">
 		<h2>ABONO ORGANICO</h2>
+		<div class="investiga-cerrar"><a href="" id="ocultarinves">Atras</a></div>
 
 	<div class="item-investiga">
 		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<a href="">Descargar</a>
+		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
 	</div>
 
 	<div class="item-investiga">
 		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<a href="">Descargar</a>
+		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
 	</div>
 
 	<div class="item-investiga">
 		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<a href="">Descargar</a>
+		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
+	</div>
+
+	<div class="item-investiga">
+		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
+		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
 	</div>
 
 
