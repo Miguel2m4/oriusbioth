@@ -1,8 +1,7 @@
 var $contacto = $("#investiga-oculta"),
 	$contenido = $("#investiga-mos"),
 	$cerrar = $("#ocultarinves"),
-	$button = $("#mostrar-con"),
-	$button2 = $("#mostrar-con2").first();
+	$button = $("#mostrar-con").first();
 
 
 	function mostrarinvestigacion(){
@@ -18,5 +17,4 @@ var $contacto = $("#investiga-oculta"),
 
 //Eventos
 $button.click( mostrarinvestigacion);
-$button2.click( mostrarinvestigacion);
-$('#ocultarinves').click( ocultarinvestigacion);
+$cerrar.click(mostrarinvestigacion);
