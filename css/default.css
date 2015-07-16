@@ -1,0 +1,432 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?57inbb");
+  src: url("../fonts/icomoon.eot?#iefix57inbb") format('embedded-opentype'), url("../fonts/icomoon.ttf?57inbb") format('truetype'), url("../fonts/icomoon.woff?57inbb") format('woff'), url("../fonts/icomoon.svg?57inbb#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.main,
+.container > header {
+/* 	width: 90%;
+max-width: 69em;
+margin: 0 auto; */
+
+}
+.icon-pencil:before {
+  content: "\e905";
+  font-size: 14px;
+
+}
+.icon-folder-o:before {
+  content: "\e930";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-key:before {
+  content: "\e98d";
+}
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-papelera:before {
+  content: "\e9ad";
+}
+.icon-lista:before {
+  content: "\e9b8";
+}
+.icon-subir:before {
+  content: "\e9c3";
+}
+.icon-descarga:before {
+  content: "\e9c7";
+}
+.icon-file-pdf:before {
+  content: "\eada";
+}
+.container > header {
+	padding: 2.875em 1.875em 1.875em;
+}
+
+.container > header h1 {
+	font-size: 2.125em;
+	line-height: 1.3;
+	margin: 0;
+	float: left;
+	font-weight: 400;
+}
+
+.container > header span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding: 0 0 0.6em 0.1em;
+}
+
+.container > header nav {
+	float: right;
+}
+
+.container > header nav a {
+	display: block;
+	float: left;
+	position: relative;
+	width: 2.5em;
+	height: 2.5em;
+	background: #fff;
+	border-radius: 50%;
+	color: transparent;
+	margin: 0 0.1em;
+	border: 4px solid #47a3da;
+	text-indent: -8000px;
+}
+
+.container > header nav a:after {
+	content: attr(data-info);
+	color: #47a3da;
+	position: absolute;
+	width: 600%;
+	top: 120%;
+	text-align: right;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.container > header nav a:hover:after {
+	opacity: 1;
+}
+
+.container > header nav a:hover {
+	background: #47a3da;
+}
+
+.main > section {
+	
+	text-align: left;
+	
+}
+
+.main > section h2 {
+	font-weight: 300;
+	color: #ccc;
+}
+
+.main > section button {
+	border: none;
+	background: #47a3da;
+	color: #fff;
+	padding: 1.5em;
+	cursor: pointer;
+	/* margin: 10px 0; */
+	font-size: 0.8em;
+}
+
+.main > section button:hover {
+	background: #258ecd;
+}
+
+.main > section button.active {
+	background: #0d77b6;
+}
+
+.main > section button.disabled {
+	background: #aaa;
+	pointer-events: none;
+}
+
+
+.main2 > section button {
+	border: none;
+	background: #47a3da;
+	color: #fff;
+	padding: 1.5em;
+	display: block;
+	cursor: pointer;
+	margin: 10px 0;
+	font-size: 0.8em;
+}
+
+.main2 > section button:hover {
+	background: #258ecd;
+}
+
+.main2 > section button.active {
+	background: #0d77b6;
+}
+
+.main2 > section button.disabled {
+	background: #aaa;
+	pointer-events: none;
+}
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+.oculto
+{
+	display: none;
+}
+.container > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+#gurdar-oculto
+{
+	/* display: none; */
+}
+.invest
+{
+	margin: 0px auto 0px auto;
+	text-align: center;
+	width: 90%
+}
+.invest h2
+{
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.invest .item-inves 
+{
+	background: #47a3da;
+	color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 10px 10px 10px;
+	width: 20%;
+}
+.invest .item-inves input[type="text"]
+{
+	border: none;
+	border:1px solid #47a3da;
+	border-radius: 0.3em;
+	font-size: 14px;
+	padding: 0.5em;
+	width: 80%;
+}
+.invest .item-inves input[type="submit"]
+{
+	background: #fff;
+	border:none;
+	border-radius: 0.3em;
+	cursor: pointer;
+	color: #47a3da;
+	padding: 0.4em 1em 0.4em 1em;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+.invest .item-inves a p span
+{
+	background: #fff;
+	border-radius: 0.3em;
+	color: #47a3da;
+	padding: 0.4em 1em 0.4em 1em;
+}
+
+.invest .item-inves h2
+{
+	text-transform: uppercase;
+	font-size: 17px;
+}
+.invest .item-inves title
+{
+	background: #000;
+	color: #fff;
+}
+.invest .item-inves a
+{
+	color: #fff;
+
+}
+.invest .item-inves:hover
+{
+	background: #0D77B6;
+	color: #fff !important;
+}
+.invest .item-inves:hover
+{
+	color: #fff !important;	
+}
+
+ .tooltip {
+    display: inline;
+    position: relative;
+  }
+  .tooltip:hover:after {
+    bottom: 26px;
+    content: attr(title); /* este es el texto que será mostrado */
+    left: 20%;
+    position: absolute;
+    z-index: 98;
+    /* el formato gráfico */
+    background: #000; /* el color de fondo */
+    border-radius: 5px;
+    color: #FFF; /* el color del texto */
+    font-family: 'arial';
+    font-size: 12px;
+    padding: 10px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    width: 150px;
+  }
+  .tooltip:hover:before {
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+    /* el triángulo inferior */
+    border: solid;
+    border-color: rgba(0,0,0, 1) transparent;
+    border-width: 6px 6px 0 6px;
+  }
+  .listar-inves
+  {
+  	background: #f2f2f2;
+  	margin-top: 20px;
+  	padding-top: 10px
+  }
+  .guardar-inves
+  {
+  	border-bottom: 1px solid #ddd;
+  	text-align: left !important
+  }
+.guardar-inves h2
+{
+	padding-left: 0.8em;
+	font-size: 22px;
+}
+  .guardar-inves input[type="text"]
+  {
+  	border-radius: 0.3em;
+  	border:none;
+  	border:1px solid #47a3da;
+  	font-size: 14px;
+  	margin: 0.5em 0.5em 0.5em 1em;
+  	padding: 0.5em;
+  	width: 40%;
+  }
+  .guardar-inves input[type="submit"]
+{
+	background: #47a3da;
+	border:none;
+	font-size: 14px;
+	border-radius: 0.3em;
+	cursor: pointer;
+	color: #fff;
+	padding: 0.5em 1em 0.5em 1em;
+	margin: 1em 1em 1em 2em;
+	
+}
+.mostrar-inves table
+{
+	width: 100%;
+}
+.mostrar-inves
+{
+	color: #333;
+	text-align: left !important;
+	border-bottom: 1px solid #ddd;
+}
+
+.mostrar-inves p
+{
+	text-transform: uppercase;
+  	padding-left: 1em;
+}
+.mostrar-inves a
+{
+	background: #fff;
+	border:none;
+	font-size: 14px;
+	border:1px solid #47a3da;
+	border-radius: 0.3em;
+	cursor: pointer;
+	color: #47a3da;
+	padding: 0.5em 1em 0.5em 1em;
+	margin: 1em 1em 1em 2em;
+}

@@ -238,6 +238,46 @@ a:focus {
   margin-top: -100px;
   padding: 0.5em;
 }
+.login1 {
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: 320px;
+}
+.login h2 {
+  font-family: Open-sans-l;
+}
+.login input[type="text"] {
+  background: #f9f9f9;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: none;
+  border: 1px solid #92cdd1;
+  margin: 10px 0px 5px 0px;
+  padding: 0.5em;
+  width: 80%;
+}
+.login input[type="password"] {
+  background: #f9f9f9;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: none;
+  border: 1px solid #92cdd1;
+  margin: 10px 0px 5px 0px;
+  padding: 0.5em;
+  width: 80%;
+}
+.login input[type="submit"] {
+  background: #395e72;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: none;
+  color: #fff;
+  margin: 10px auto 10px auto;
+  padding: 0.5em;
+}
+.login input[type="submit"]:hover {
+  background: #335567;
+}
 .pie {
   margin: auto 0px auto 0px;
   text-align: center;
