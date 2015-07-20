@@ -2,5 +2,5 @@
 	<h3>Menu</h3>
 	<a href="#">Investigacion aplicada</a>
 	<a href="#">Blog</a>
-	<a href="#">Cerrar Sesión</a>
+	<a href="libs/logout.php">Cerrar Sesión</a>
 </nav>
