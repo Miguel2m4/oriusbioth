@@ -16,7 +16,7 @@ include("conexion.php");
             $answer['redirec'] = 'adminhome';
         }
         else
-            $answer = crypt($pswd, $pass);
+            $answer = $pass;
     }
     else
     {
