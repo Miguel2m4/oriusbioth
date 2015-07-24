@@ -16,11 +16,11 @@ include("conexion.php");
             $answer['redirec'] = 'adminhome';
         }
         else
-            $answer = 'error';
+            $answer = 'error2';
     }
     else
     {
-    	 $answer = 'error';
+    	 $answer = 'error1';
     }
     echo json_encode($answer);
 ?>
