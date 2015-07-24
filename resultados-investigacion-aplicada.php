@@ -10,6 +10,7 @@
 <title>Resultados Investigación Aplicada | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/atom.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 </head>
@@ -69,100 +70,52 @@
 	<div class="contenido">
 
 	<div id="investiga-mos">
+		<?php
+			include('libs/conexion.php');
 
-		<div class="Resultados-componente">
-			<a href="#top-contacto" id="mostrar-con">
-			<div class="Resultados-componente-imagen"></div>
-			<p>ABONO ORGANICO</p>
-			<div class="Resultados-componente-archivos">
-				<p>Archivos: 2</p>
+			$sel = mysql_query("SELECT * FROM cultivos ");
+			while($res = mysql_fetch_object($sel))
+			{
+				$sel2 = mysql_query("SELECT COUNT(Id_in) as total FROM investigaciones WHERE Id_cu = '$res->Id_cu' ");
+				if(mysql_num_rows($sel2)!=0)
+				{
+					$res2 = mysql_fetch_object($sel2);
+					$total = $res2->total;
+				}
+				else
+					$total = 0;
+		?>
+			<div class="Resultados-componente">
+				<a href="#top-contacto" class="mostrar-con" id="<?php echo $res->Id_cu?>">
+				<div class="Resultados-componente-imagen"></div>
+				<p><?php echo $res->Nombre_cu?></p>
+				<div class="Resultados-componente-archivos">
+					<p>Archivos: <?php echo $total ?></p>
+				</div>
+				</a>
 			</div>
-			</a>
-		</div>
 
-		<div class="Resultados-componente">
-			<a href="#">
-			<div class="Resultados-componente-imagen"></div>
-			<p>ABONO ORGANICO</p>
-			<div class="Resultados-componente-archivos">
-				<p>Archivos: 2</p>
-			</div>
-			</a>
-		</div>
-
-		<div class="Resultados-componente">
-			<a href="#">
-			<div class="Resultados-componente-imagen"></div>
-			<p>MANEJO DE NEMATODOS</p>
-			<div class="Resultados-componente-archivos">
-				<p>Archivos: 2</p>
-			</div>
-			</a>
-		</div>
-
-		<div class="Resultados-componente">
-			<a href="#">
-			<div class="Resultados-componente-imagen"></div>
-			<p>ABONO ORGANICO</p>
-			<div class="Resultados-componente-archivos">
-				<p>Archivos: 2</p>
-			</div>
-			</a>
-		</div>
-
-		<div class="Resultados-componente">
-			<a href="#">
-			<div class="Resultados-componente-imagen"></div>
-			<p>ABONO ORGANICO</p>
-			<div class="Resultados-componente-archivos">
-				<p>Archivos: 2</p>
-			</div>
-			</a>
-		</div>
-
-		<div class="Resultados-componente">
-			<a href="#">
-			<div class="Resultados-componente-imagen"></div>
-			<p>ABONO ORGANICO</p>
-			<div class="Resultados-componente-archivos">
-				<p>Archivos: 2</p>
-			</div>
-			</a>
-		</div>
-
+		<?php
+			}
+		?>
 
 	</div><!-- cierra div investiga-mos -->
 
 	<div id="investiga-oculta" name="top-contacto">
-		<h2>ABONO ORGANICO</h2>
+		<h2 id="cultivo"></h2>
 		<div class="investiga-cerrar"><p><a href="" id="ocultarinves">Atras</a></p></div>
 
-	<div class="item-investiga">
-		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
+		<div id="carga">
+			<div class="atom">
+			  <div class="electron"></div>
+			  <div class="electron"></div>
+			  <div class="electron"></div>
+			</div>
+		</div>
+		<div id="listado" style="display: none"></div>
 	</div>
 
-	<div class="item-investiga">
-		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
 	</div>
-
-	<div class="item-investiga">
-		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
-	</div>
-
-	<div class="item-investiga">
-		<p>Eficacia de DIGESTOR en Raquis de Palma para producir Abono Orgánico en Hda La Cabaña, Meta,Colombia</p>
-		<p><a href=""><span class="icon-file-pdf"></span>  Descargar</a></p>
-	</div>
-
-
-	</div>
-	</div>
-
-
-
 
 	<div class="seccion-contacto">
 		<p>Tienen alguna duda acerca de nuestras soluciones?</p><a href="">Contáctenos</a>

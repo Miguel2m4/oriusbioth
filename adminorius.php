@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['usulog'])) {
+  header('Location: adminhome');
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,6 +16,7 @@
 <title>Administrador | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/msj.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 </head>
@@ -29,25 +36,20 @@
 <section>
 	<div class="tooper"></div>
 	<div class="mashead">
-	<h2>Bienvenido Administrador</h2>
+		<h2>Bienvenido Administrador</h2>
 	</div>
 	<div class="contenido">
-
-	<div class="login1">
-	<div class="login">
-	<h2>Iniciar Sesión</h2>
-	<form>
-	<input type="text" placeholder="Usuario" required>
-	<input type="password" placeholder="Contraseña" required>
-	<input type="submit" value="Iniciar">
-	</form>
+		<div class="login1">
+			<div class="login">
+				<h2>Iniciar Sesión</h2>
+				<form id="logueo">
+					<input type="text" placeholder="Usuario" name="usuario" required>
+					<input type="password" placeholder="Contraseña" name="password" required>
+					<input type="submit" value="Iniciar">
+				</form>
+			</div>
+		</div>
 	</div>
-	</div>
-
-	</div>
-
-
-
 
 	<div class="seccion-contacto">
 		<p>Tienen alguna duda acerca de nuestras soluciones?</p><a href="">Contáctenos</a>
@@ -57,6 +59,7 @@
 	<?php include("footer.php"); ?>
 </footer>
 <script src="js/mostrar-invest.js"></script>
+<script src="js/script_login.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

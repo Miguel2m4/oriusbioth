@@ -528,6 +528,7 @@ a:focus {
 }
 #investiga-oculta {
   display: none;
+  min-height: 500px;
 }
 @media screen and (max-width: 960px) {
   .contenido {
