@@ -16,7 +16,7 @@ include("conexion.php");
             $answer['redirec'] = 'adminhome';
         }
         else
-            $answer = 'error2';
+            $answer = $pass;
     }
     else
     {
