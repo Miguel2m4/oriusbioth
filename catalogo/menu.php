@@ -6,13 +6,13 @@
 				<a href="">Productos Soluciones</a>
 			</li>
 			<li>
-				<a href="catalogo/index">Catalogo</a>
+				<a href="login">Catalogo - Ingresar</a>
 			</li>
 			<li>
-				<a href="escritos-tecnicos">Escritos Técnicos</a>
+				<a href="../escritos-tecnicos">Escritos Técnicos</a>
 			</li>
 			<li>
-				<a href="resultados-investigacion-aplicada">Resultados Investigación Aplicada</a>
+				<a href="../resultados-investigacion-aplicada">Resultados Investigación Aplicada</a>
 			</li>
 		</ul>
 	</div>
