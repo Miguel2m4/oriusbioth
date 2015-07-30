@@ -19,6 +19,7 @@ var $investiga = $("#investiga-oculta"),
 //Eventos
 $button.on('click',function(){
 	mostrarinvestigacion();
+	$("html, body").animate({ scrollTop: $('#scrinfo').offset({top:$('header').height()})}, 500);
 	nomcult = $(this).find('p').eq(0).text();
 	cult = $(this).attr('id');
 	$('#cultivo').html(nomcult);
@@ -44,7 +45,7 @@ $button.on('click',function(){
 		},500)
 
 	})
-
 });
+
 $cerrar.click(mostrarinvestigacion);
 
