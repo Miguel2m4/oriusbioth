@@ -21,17 +21,6 @@ include("conexion.php");
         else
             $answer = 'error';
 
-
-
-        // if( crypt($pswd, $pass) == $pass)
-        // {
-        //     session_start();
-        //     $_SESSION['usulog'] = $resp['Usuario_usu'];
-        //     $_SESSION['tipousu'] = $resp['Tipo_usu'];
-        //     $answer['redirec'] = 'adminhome';
-        // }
-        // else
-        //     $answer = 'error';
     }
     else
     {
