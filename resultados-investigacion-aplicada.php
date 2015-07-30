@@ -64,7 +64,8 @@
 </header>
 <section>
 	<div class="tooper"></div>
-	<div class="mashead">
+	<div id="scrinfo"></div>
+	<div class="mashead" >
 	<h2>Resultados Investigación Aplicada</h2>
 	</div>
 	<div class="contenido">
