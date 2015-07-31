@@ -21,20 +21,7 @@ include("conexion.php");
         else
             $answer = 'error';
 
-<<<<<<< HEAD
-=======
 
-
-        // if( crypt($pswd, $pass) == $pass)
-        // {
-        //     session_start();
-        //     $_SESSION['usulog'] = $resp['Usuario_usu'];
-        //     $_SESSION['tipousu'] = $resp['Tipo_usu'];
-        //     $answer['redirec'] = 'adminhome';
-        // }
-        // else
-        //     $answer = 'error';
->>>>>>> 69078a4d4ce9467bcd39b31bbb564a0e923b4bcf
     }
     else
     {
@@ -42,13 +29,8 @@ include("conexion.php");
     }
     echo json_encode($answer);
 
-
-<<<<<<< HEAD
-    function hash_compare($a, $b) {
-=======
-
         function hash_compare($a, $b) {
->>>>>>> 69078a4d4ce9467bcd39b31bbb564a0e923b4bcf
+
         if (!is_string($a) || !is_string($b)) {
             return false;
         }
@@ -64,8 +46,5 @@ include("conexion.php");
         }
         return $status === 0;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 69078a4d4ce9467bcd39b31bbb564a0e923b4bcf
 ?>
