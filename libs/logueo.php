@@ -30,6 +30,7 @@ include("conexion.php");
 
 
 
+
     function hash_compare($a, $b) {
 
         if (!is_string($a) || !is_string($b)) {
