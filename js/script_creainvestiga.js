@@ -69,9 +69,9 @@ $(document).ready(function(){
 		$.getJSON('libs/acc_investigacion',{opc:'cargar',cultivo:idcult}).done(function(data){
 			$('#listado tbody').empty();
 			$.each(data.investigaciones,function(i,dat){
-				$('#listado tbody').append('<tr>'+
-											'<td><p>'+dat.Nombre_in+'</p></td>'+
-											'<td><a href="javascript:void(0)" class="borrar" id="'+dat.Id_in+'">Borrar</a></td>'+
+				$('#listado tbody').append('<tr id="'+dat.Id_in+'">'+
+											'<td><p><span>'+dat.Nombre_in+'</span>   <a href ="javascript:void(0)" class="tooltip edita2" title="Editar" ><span class="icon-pencil"></span></a></p></td>'+
+											'<td><a href="javascript:void(0)" class="borrar">Borrar</a></td>'+
 										'</tr>');
 			})
 		})
@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 	$('body').on('click','.borrar',function(){
 		$(this).closest('tr').fadeOut();
-		$.post('libs/acc_investigacion',{opc:'binvestiga',cultivo:$(this).attr('id')});
+		$.post('libs/acc_investigacion',{opc:'binvestiga',cultivo:$(this).closest('tr').attr('id')});
 	})
 
 	$('#crear2').on('submit',function(e){
@@ -166,4 +166,19 @@ $(document).ready(function(){
         }
 	})
 
+	$('body').on('click','.edita2',function(){
+		iedit = $(this).prev('span');
+		ivalu = $(this).prev('span').html();
+		iedit.empty();
+		iedit.append('<input type="text" class="guard2" value="'+ivalu+'">');
+
+	})
+
+	$('body').on('keypress','.guard2',function(e){
+		if (e.keyCode == 13) {
+            nivalu = $(this).val();
+            $.post('libs/acc_investigacion',{opc:'einvestiga',cultivo:$(this).closest('tr').attr('id'),nombre:nivalu});
+			$(this).parent().empty().html(nivalu);
+        }
+	})
 })
