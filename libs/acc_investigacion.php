@@ -8,17 +8,24 @@ include('conexion.php');
 @$nombre = $_POST['nombre'];
 @$cultivo = $_REQUEST['cultivo'];
 
-//ADJUNTO INVESTIGACION
+//ADJUNTOS
 @$upload_folder ='../archivos/investigaciones';
+@$upload_imgcul ='../archivos/cultivos';
 @$nombre_archivo = $_FILES['archivo']['name'];
 @$tmp_archivo = $_FILES['archivo']['tmp_name'];
 //
 
 switch ($opc) {
 	case 'ncultivo':
-		$crea = mysql_query("INSERT INTO cultivos VALUES ('','$nombre') ");
-		if($crea)
-			echo'correcto';
+		@$archivador = $upload_imgcul . '/'.$nombre.'_'.$nombre_archivo;
+		if(move_uploaded_file($tmp_archivo, $archivador))
+		{
+			$crea = mysql_query("INSERT INTO cultivos VALUES('','$nombre','$archivador') ");
+			$respuesta['status'] = 'correcto';
+		}
+		else
+			$respuesta['status'] = 'error';
+		echo json_encode($respuesta);
 	break;
 	case 'ecultivo':
 		$act = mysql_query("UPDATE cultivos SET Nombre_cu = '$nombre' WHERE Id_cu = '$cultivo' ");
