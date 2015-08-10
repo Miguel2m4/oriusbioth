@@ -51,7 +51,7 @@ switch ($opc) {
 		echo '{"investigaciones":'.json_encode($informacion).'}';
 	break;
 	case 'cargar':
-		$sel = mysql_query("SELECT * FROM investigaciones WHERE Id_cu = '$cultivo' ORDER BY Id_in DESC ");
+		$sel = mysql_query("SELECT Id_in,Nombre_in FROM investigaciones WHERE Id_cu = '$cultivo' ORDER BY Id_in DESC ");
 		while($res = mysql_fetch_object($sel))
 		{
 			$informacion[]=$res;
@@ -84,6 +84,12 @@ switch ($opc) {
 		}
 		echo '{"investigaciones":'.json_encode($informacion).'}';
 	break;
+	case 'einvestiga':
+		$act = mysql_query("UPDATE investigaciones SET Nombre_in = '$nombre' WHERE Id_in = '$cultivo' ");
+		if($act)
+			echo'correcto';
+	break;
+
 	default:
 		break;
 }
