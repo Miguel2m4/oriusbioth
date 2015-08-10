@@ -88,7 +88,7 @@
 		?>
 			<div class="Resultados-componente">
 				<a href="#top-contacto" class="mostrar-con" id="<?php echo $res->Id_cu?>">
-				<div class="Resultados-componente-imagen"></div>
+				<div class="Resultados-componente-imagen" style="background-image: url('<?php echo substr($res->Archivo_cu, 3); ?>')"></div>
 				<p><?php echo $res->Nombre_cu?></p>
 				<div class="Resultados-componente-archivos">
 					<p>Archivos: <?php echo $total ?></p>

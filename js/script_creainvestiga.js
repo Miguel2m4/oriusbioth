@@ -15,28 +15,61 @@ $(document).ready(function(){
             $('#rp').fadeIn();
          	});
         }, 400);
-        data = $(this).serializeArray();
-        data.push({'name':'opc','value':'ncultivo'});
-        $.post('libs/acc_investigacion.php',data).done(function(data){
-        	if(data == 'correcto')
-        	{
-        		$('#fondo').remove();
-				$('body').append("<div class='fondo' id='fondo' style='display:none;'></div>");
-				$('#fondo').append("<div class='caja' style='display: none; text-align: center' id='rp'><span>Correcto!</span></div>");
-				setTimeout(function() {
-		        	$('#fondo').fadeIn('fast',function(){
-		            $('#rp').animate({'top':'350px'},50).fadeIn();
-		         	});
-		        }, 400);
-		        setTimeout(function() {
-		            $("#rp").fadeOut();
-		            $('#fondo').fadeOut('fast');
-		        }, 2500);
-		        $('[name=nombre]').val('');
-		        $('#gurdar-oculto').fadeToggle(400);
-		        cultivos();
-        	}
-        })
+        var data = new FormData();
+		data.append( 'action','libs/acc_investigacion.php');
+		adjunto = document.getElementById('imgcult');
+		adjunto = adjunto.files[0];
+		data.append('archivo',adjunto);
+        otradata = $("#crear").serializeArray();
+        $.each(otradata,function(key,input){
+    	    data.append(input.name,input.value);
+    	});
+    	data.append('opc','ncultivo');
+    	$.ajax({
+	        url:'libs/acc_investigacion.php',
+	        data: data,
+	        cache: false,
+	        contentType: false,
+	        processData: false,
+	        type: 'POST',
+	        dataType:'json',
+	        success: function(data){
+		        if(data.status == 'correcto')
+		        {
+		        	$('#fondo').remove();
+					$('body').append("<div class='fondo' id='fondo' style='display:none;'></div>");
+					$('#fondo').append("<div class='caja' style='display: none; text-align: center' id='rp'><span>Correcto!</span></div>");
+					setTimeout(function() {
+			        	$('#fondo').fadeIn('fast',function(){
+			            $('#rp').animate({'top':'350px'},50).fadeIn();
+			         	});
+			        }, 400);
+			        setTimeout(function() {
+			            $("#rp").fadeOut();
+			            $('#fondo').fadeOut('fast');
+			        }, 2500);
+			        $('input','#crear2').not('[type=submit]').val('');
+			        $('#gurdar-oculto').fadeOut(0);
+			        cultivos();
+			    }
+			    else
+			    	if(data.status == 'error')
+			    	{
+			    		$('#fondo').remove();
+						$('body').append("<div class='fondo' id='fondo' style='display:none;'></div>");
+						$('#fondo').append("<div class='caja' style='display: none; text-align: center' id='rp'><span>Error!</span></div>");
+						setTimeout(function() {
+				        	$('#fondo').fadeIn('fast',function(){
+				            $('#rp').animate({'top':'350px'},50).fadeIn();
+				         	});
+				        }, 400);
+				        setTimeout(function() {
+				            $("#rp").fadeOut();
+				            $('#fondo').fadeOut('fast');
+				        }, 2500);
+			    	}
+	  		}
+	    });
 	})
 
 	function cultivos()

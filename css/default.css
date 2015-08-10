@@ -380,8 +380,8 @@ margin: 0 auto; */
 	padding-left: 0.8em;
 	font-size: 22px;
 }
-  .guardar-inves input[type="text"]
-  {
+ .guardar-inves input[type="text"]
+ {
   	border-radius: 0.3em;
   	border:none;
   	border:1px solid #47a3da;
@@ -389,7 +389,17 @@ margin: 0 auto; */
   	margin: 0.5em 0.5em 0.5em 1em;
   	padding: 0.5em;
   	width: 40%;
-  }
+ }
+ .mostrar-inves input[type="text"]
+ {
+  	border-radius: 0.3em;
+  	border:none;
+  	border:1px solid #47a3da;
+  	font-size: 14px;
+  	margin: 0.5em 0.5em 0.5em 1em;
+  	padding: 0.5em;
+  	width: 80%;
+ }
   .guardar-inves input[type="submit"]
 {
 	background: #47a3da;
@@ -433,4 +443,9 @@ margin: 0 auto; */
 .ver
 {
 	cursor: pointer;
+}
+
+#imgcult
+{
+	width: 200px;
 }

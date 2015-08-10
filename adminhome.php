@@ -52,7 +52,8 @@ if (!isset($_SESSION['usulog'])) {
 					</a>
 					<div id="gurdar-oculto">
 						<form id="crear">
-							<input type="text" placeholder="Nombre del Cultivo" name="nombre" required>
+							<input type="text" placeholder="Nombre del Cultivo" name="nombre" required><br><br>
+							<input type="file" id="imgcult" required><br>
 							<input type="submit" value="Guardar">
 						</form>
 					</div>
