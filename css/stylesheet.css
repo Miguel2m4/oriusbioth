@@ -238,28 +238,6 @@ a:focus {
   margin-top: -100px;
   padding: 0.5em;
 }
-.imagen-fondo-blog{
-  background-image: url("../images/bag1.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 384px;
-  width: 100%;
-}
-.imagen-titulo-blog{
-  margin: 0px auto 0px auto;
-  padding: 230px 1.5em 1.5em 1.5em;
-  width: 70%;
-}
-.imagen-titulo-blog h2{
-  color: #fff;
-  font-size: 38px;
-  font-family: Open-sans-b;
-  text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;
-  margin-top: 0px;
-}
 .login1 {
   margin: 0px auto 0px auto;
   text-align: center;
@@ -550,7 +528,6 @@ a:focus {
 }
 #investiga-oculta {
   display: none;
-  min-height: 500px;
 }
 @media screen and (max-width: 960px) {
   .contenido {
@@ -577,14 +554,6 @@ a:focus {
   }
   .item-investiga p {
     text-align: left;
-  }
-  .imagen-titulo-blog{
-    margin: 0px auto 0px auto;
-    padding: 180px 1.5em 1.5em 1.5em;
-    width: 75%;
-  }
-  .imagen-titulo-blog h2{
-    font-size: 25px;
   }
   .Resultados-componente {
     width: 90%;

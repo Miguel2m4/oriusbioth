@@ -10,6 +10,7 @@
 <title>Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/sub-menu.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 </head>
@@ -59,6 +60,13 @@
 	</div>
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="js/script-menu.js"></script>
+</div>
+<div class="Sub-menu">
+	<div class="Sub-menu-cat">
+		<div class="Sub-menu-cat-item">
+			<img src="images/logo.png">
+		</div>
+	</div>
 </div>
 </header>
 <section>
