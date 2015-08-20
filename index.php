@@ -62,11 +62,7 @@
 	<script type="text/javascript" src="js/script-menu.js"></script>
 </div>
 <div class="Sub-menu">
-	<div class="Sub-menu-cat">
-		<div class="Sub-menu-cat-item">
-			<img src="images/logo.png">
-		</div>
-	</div>
+	<?php include("sub-menu.php"); ?>
 </div>
 </header>
 <section>
