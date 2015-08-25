@@ -68,8 +68,8 @@ a {text-decoration: none;}
     display: block;
 }
 .nav li  ul {
-    position: absolute;
-    left: -9999px;
+    position: relative;
+    /*left: -9999px;*/
 }
 .nav > li.hover > ul {
     left: 0;
@@ -78,14 +78,14 @@ a {text-decoration: none;}
     left: 100%;
     top: 0;
 }
-.nav li li a {
+/*.nav li li a {
     display: block;
     background: #B50303;
     position: relative;
     z-index:100;
     width: 100%;
     border-top: 1px solid #590808;
-}
+}*/
 .nav li li a:hover
 {
     background: #7E0202;
@@ -136,4 +136,8 @@ a {text-decoration: none;}
     border-bottom: 1px solid #f2f2f2;
 }
 
+}
+
+.nav li ul{
+    display: none;
 }
