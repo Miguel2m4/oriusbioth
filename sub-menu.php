@@ -45,7 +45,7 @@
 				</div>
 				<div class="Sub-menu-agricola-item">
 					<a href="">
-					<img src="images/Bacthon-l.png">
+					<img src="images/Buensuelo-l.png">
 					<figcaption>Buen-suelo SC</figcaption>
 					</a>
 				</div>
@@ -71,13 +71,13 @@
 				</div>
 				<div class="Sub-menu-acuicola-item">
 					<a href="">
-					<img src="images/Bio2H-l.png">
+					<img src="images/Bioclean-l.png">
 					<figcaption>Bio-Clean SC</figcaption>
 					</a>
 				</div>
 				<div class="Sub-menu-acuicola-item">
 					<a href="">
-					<img src="images/Bio2H-l.png">
+					<img src="images/Bioacua-l.png">
 					<figcaption>Bio-acua SC</figcaption>
 					</a>
 				</div>

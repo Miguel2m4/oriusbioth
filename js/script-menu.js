@@ -136,7 +136,7 @@ var adjustMenu = function() {
 		$('.top').after('<div class="top productos2" style="display:none">'+
 							'<div class="top-der">'+
 								'<nav>'+
-									'<ul class="nav">'+
+									'<ul class="nav productos">'+
 										'<li><a href="#" class="pr2">Agrícola</a></li>'+
 										'<li><a href="#" class="pr2">Acuícola</a></li>'+
 										'<li><a href="#" class="pr2">Ambiental</a></li>'+
