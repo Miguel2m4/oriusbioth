@@ -11,7 +11,9 @@
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
 <link rel="stylesheet" href="css/atom.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
+<link rel="stylesheet" href="css/sub-menu.css" />
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 </head>
 <body>
@@ -59,7 +61,12 @@
 	<?php include("menu.php"); ?>
 	</div>
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script-menu.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+</div>
+<div class="Sub-menu">
+	<?php include("sub-menu.php"); ?>
 </div>
 </header>
 <section>
