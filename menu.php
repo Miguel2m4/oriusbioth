@@ -58,7 +58,7 @@
 					</div>
 					<div class="Sub-menu-agricola-item">
 						<a href="buen-suelo">
-						<img src="images/Bacthon-l.png">
+						<img src="images/Buensuelo-l.png">
 						<figcaption>Buen-suelo SC</figcaption>
 						</a>
 					</div>

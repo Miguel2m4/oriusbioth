@@ -88,7 +88,7 @@ a {text-decoration: none;}
 }*/
 .nav li li a:hover
 {
-    background: #7E0202;
+    background: none;
 }
 .nav li li li a {
     background:#249578;
