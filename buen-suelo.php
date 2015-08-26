@@ -10,6 +10,8 @@
 <title>Buen-Suelo | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
+<link rel="stylesheet" href="css/sub-menu.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 </head>
