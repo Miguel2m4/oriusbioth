@@ -508,6 +508,7 @@ a:focus {
 }
 .Sub-menu-agricola {
   width: 100%;
+  border-bottom: 3px solid #92cdd1;
 }
 .Sub-menu-agricola-item {
   display: inline-block;
@@ -533,6 +534,7 @@ a:focus {
 }
 .Sub-menu-acuicola {
   width: 100%;
+  border-bottom: 3px solid #92cdd1;
 }
 .Sub-menu-acuicola-item {
   display: inline-block;
@@ -558,6 +560,7 @@ a:focus {
 }
 .Sub-menu-ambiental {
   width: 100%;
+  border-bottom: 3px solid #92cdd1;
 }
 .Sub-menu-ambiental-item {
   display: inline-block;
