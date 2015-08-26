@@ -58,7 +58,12 @@
 	<?php include("menu.php"); ?>
 	</div>
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script-menu.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+</div>
+<div class="Sub-menu">
+	<?php include("sub-menu.php"); ?>
 </div>
 </header>
 <section>
