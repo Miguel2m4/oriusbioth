@@ -230,27 +230,54 @@ header{
 @media screen and (max-width: 1140px) {
     .cb-slideshow li div h3
      {
-      font-size: 40px
+      font-size: 40px;
      }
-/*.cb-slideshow li .centrado-corto
+
+}
+@media screen and (max-width: 960px){
+.cb-slideshow li div h3
 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.cb-slideshow li .centrado-corto
+{
+    font-size: 20px;
     margin: 0px auto 0px auto;
     text-align: center!important;
-    top: 0px;
+    top: 190px;
 
-}*/
 }
-@media screen and (max-width: 600px) {
+.cb-slideshow li div a
+{
+    padding: 0.5em;
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 870px) {
     .cb-slideshow li div h3 {
      padding: 0px 0.5em 0px 0.5em;
      line-height: 36px;
-     font-size: 30px;
+     font-size: 20px;
+     padding-bottom: 10px;
+     margin-bottom: 0px;
      }
+     .cb-slideshow li .centrado-corto
+{
+    font-size: 20px;
+    margin: 0px auto 0px auto;
+    text-align: center!important;
+    top: 190px;
+
+}
 }
 @media screen and (max-width: 380px) {
     .cb-slideshow li div h3 {
         padding: 0px 0.5em 0px 0.5em;
      line-height: 30px;
      font-size: 20px;
+     padding-bottom: 10px;
+        margin-bottom: 0px;
      }
 }
