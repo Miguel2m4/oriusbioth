@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Open-sans-r;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: Open-sans-b;
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: Open-sans-l;
+  src: url("../fonts/OpenSans-Light.ttf");
+}
 .cb-slideshow,
 .cb-slideshow:after {
     position: absolute;
@@ -46,10 +58,17 @@
     animation: titleAnimation 24s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 70px;
-    padding: 0;
-    line-height: 200px;
+    font-family: 'Open-sans-l', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 0px 2.5em 0px 2.5em;
+    text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;
+    line-height: 86px;
+}
+.cb-slideshow li .centrado-corto
+{
+    margin: 0px auto 0px auto;
+    text-align: center!important;
+
 }
 .cb-slideshow li:nth-child(1) span {
     background-image: url(../images/bg1.jpg)
@@ -195,15 +214,19 @@ header{
     overflow: hidden;
 }
 @media screen and (max-width: 1140px) {
-    .cb-slideshow li div h3 { font-size: 70px }
+    .cb-slideshow li div h3 { font-size: 40px }
 }
 @media screen and (max-width: 600px) {
     .cb-slideshow li div h3 {
-     font-size: 40px;
+     padding: 0px 0.5em 0px 0.5em;
+     line-height: 36px;
+     font-size: 30px;
      }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
     .cb-slideshow li div h3 {
-        font-size: 40px;
+        padding: 0px 0.5em 0px 0.5em;
+     line-height: 30px;
+     font-size: 20px;
      }
 }

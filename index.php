@@ -75,7 +75,7 @@
 		<ul class="cb-slideshow">
             <li><span>Image 01</span><div><h3>re·lax·a·tion</h3><a href="#">vinculo</a></div></li>
             <li><span>Image 02</span><div><h3>qui·e·tude</h3><a href="#">vinculo</a></div></li>
-            <li><span>Image 03</span><div><h3>bal·ance</h3><a href="#">vinculo</a></div></li>
+            <li><span>Image 03</span><div class="centrado-corto"><h3>PBP - Programa Integral Biotecnológico para la Producción Pecuaria</h3><a href="#">vinculo</a></div></li>
             <li><span>Image 04</span><div><h3>e·qua·nim·i·ty</h3><a href="#">vinculo</a></div></li>
         </ul>
 	</div>
