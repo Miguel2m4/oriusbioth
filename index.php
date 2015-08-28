@@ -10,6 +10,8 @@
 <title>Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/atom.css" />
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
 <link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" href="css/sub-menu.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
@@ -69,7 +71,14 @@
 </div>
 </header>
 <section>
-	<div class="imagen-fondo"></div>
+	<div class="imagen-fondo">
+		<ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3>re·lax·a·tion</h3><a href="#">vinculo</a></div></li>
+            <li><span>Image 02</span><div><h3>qui·e·tude</h3><a href="#">vinculo</a></div></li>
+            <li><span>Image 03</span><div><h3>bal·ance</h3><a href="#">vinculo</a></div></li>
+            <li><span>Image 04</span><div><h3>e·qua·nim·i·ty</h3><a href="#">vinculo</a></div></li>
+        </ul>
+	</div>
 	<div class="seccion-cont">
 		<div class="seccion-1">
 			<div class="programas">
@@ -135,6 +144,56 @@
 			<p><a href="">Mejore su produccion de aguacate con biotecnologia.</a></p>
 		</div>
 	</div>
+	<div id="scrinfo"></div>
+	<div class="mashead" >
+		<h2>Resultados Investigación Aplicada</h2>
+	</div>
+	<div class="contenido">
+		<div id="investiga-mos">
+			<?php
+				include('libs/conexion.php');
+
+				$sel = mysql_query("SELECT * FROM cultivos ");
+				while($res = mysql_fetch_object($sel))
+				{
+					$sel2 = mysql_query("SELECT COUNT(Id_in) as total FROM investigaciones WHERE Id_cu = '$res->Id_cu' ");
+					if(mysql_num_rows($sel2)!=0)
+					{
+						$res2 = mysql_fetch_object($sel2);
+						$total = $res2->total;
+					}
+					else
+						$total = 0;
+			?>
+				<div class="Resultados-componente">
+					<a href="#top-contacto" class="mostrar-con" id="<?php echo $res->Id_cu?>">
+					<div class="Resultados-componente-imagen" style="background-image: url('<?php echo substr($res->Archivo_cu, 3); ?>')"></div>
+					<p><?php echo $res->Nombre_cu?></p>
+					<div class="Resultados-componente-archivos">
+						<p>Archivos: <?php echo $total ?></p>
+					</div>
+					</a>
+				</div>
+
+			<?php
+				}
+			?>
+		</div>
+		<div id="investiga-oculta" name="top-contacto">
+			<h2 id="cultivo"></h2>
+			<div class="investiga-cerrar"><p><a href="" id="ocultarinves">Atras</a></p></div>
+
+			<div id="carga">
+				<div class="atom">
+				  <div class="electron"></div>
+				  <div class="electron"></div>
+				  <div class="electron"></div>
+				</div>
+			</div>
+			<div id="listado" style="display: none"></div>
+		</div>
+	</div>
+
 	<div class="seccion-contacto">
 		<p>Tienen alguna duda acerca de nuestras soluciones?</p><a href="">Contáctenos</a>
 	</div>
@@ -142,6 +201,7 @@
 <footer>
 	<?php include("footer.php"); ?>
 </footer>
+<script src="js/mostrar-invest-index.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
