@@ -73,10 +73,10 @@
 <section>
 	<div class="imagen-fondo">
 		<ul class="cb-slideshow">
-            <li><span>Image 01</span><div><h3>re·lax·a·tion</h3><a href="#">vinculo</a></div></li>
-            <li><span>Image 02</span><div><h3>qui·e·tude</h3><a href="#">vinculo</a></div></li>
-            <li><span>Image 03</span><div class="centrado-corto"><h3>PBP - Programa Integral Biotecnológico para la Producción Pecuaria</h3><a href="#">vinculo</a></div></li>
-            <li><span>Image 04</span><div><h3>e·qua·nim·i·ty</h3><a href="#">vinculo</a></div></li>
+            <li><span>Image 01</span><div class="centrado-corto"><h3>Suelo Sano Cultivo Sano</h3><a href="#">Ver Programa SS-CS</a></div></li>
+            <li><span>Image 02</span><div class="centrado-corto"><h3>Beneficios para la Producción Agrícola</h3><a href="#">Ver Beneficios</a></div></li>
+            <li><span>Image 03</span><div class="centrado-corto"><h3>PBP - Programa Integral Biotecnológico para la Producción Pecuaria</h3><a href="#">Ver Programa PBP</a></div></li>
+            <li><span>Image 04</span><div class="centrado-corto"><h3>Programa AFE</h3><a href="#">Ver Programa AFE</a></div></li>
         </ul>
 	</div>
 	<div class="seccion-cont">
