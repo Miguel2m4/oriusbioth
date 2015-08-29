@@ -16,6 +16,7 @@ if (isset($_SESSION['usulog'])) {
 <title>Administrador | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" href="css/msj.css" />
 <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
@@ -31,6 +32,7 @@ if (isset($_SESSION['usulog'])) {
 	</div>
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="js/script-menu.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 </div>
 </header>
 <section>
