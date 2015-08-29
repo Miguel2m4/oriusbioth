@@ -8,5 +8,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 Options -Indexes
-ErrorDocument 404 http://www.oriusbiotech.com
-ErrorDocument 403 http://www.oriusbiotech.com
+ErrorDocument 404 http://www.odontologialascondes.co
+ErrorDocument 403 http://www.odontologialascondes.co
