@@ -352,7 +352,7 @@ a:focus {
   width: 30%;
 }
 .seccion-somos-quien p {
-  color: #666;
+  color: #0f3c54;
   font-family: Open-sans-l;
   text-align: left;
   line-height: 28px;
@@ -364,6 +364,24 @@ a:focus {
 }
 .seccion-somos-quien img {
   width: 100%;
+}
+.seccion-somos-quien ul {
+  padding-top: 1em;
+}
+.seccion-somos-quien ul li {
+  color: #0f3c54;
+  font-family: Open-sans-l;
+  list-style: none;
+  line-height: 28px;
+  text-align: left;
+}
+.seccion-somos-quien ul li strong {
+  font-family: Open-sans-b;
+}
+.seccion-somos-quien a {
+  color: #77d4d9;
+  font-family: Open-sans-r;
+  text-decoration: none;
 }
 .seccion-cont {
   background: #fff;

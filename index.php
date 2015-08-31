@@ -84,6 +84,14 @@
 		<div class="seccion-somos-quien">
 			<h2>Conozca a Orius Biotech</h2>
 			<p>Somos una organización de base tecnológica que investiga, produce, desarrolla, posiciona, comercializa y exporta soluciones biotecnológicas para los productores agrícolas, pecuarios, acuícolas y para el manejo ambiental, con menor impacto y para la producción sostenible.</p>
+			<ul>
+				<li>Colombia: <strong>ORBIOTEC.</strong><a href="http://www.orbiotec.com" target="blank">www.orbiotec.com.</a></li>
+				<li>Ecuador: <strong>JW ASOCIADOS.</strong><a href="http://www.jwasociados.com.ec" target="blank"> www.jwasociados.com.ec.</a></li>
+				<li>Perú: <strong>SERFI.</strong><a href="http://www.serfi.com.pe" target="blank"> www.serfi.com.pe.</a></li>
+				<li>Panamá:<strong>ROCASA</strong><a href="http://www.rocasa.com" target="blank"> www.rocasa.com</a></li>
+				<li>Costa Rica:<strong>RESUSA</strong><a href="http://www.resusa.co.cr" target="blank"> www.resusa.co.cr</a></li>
+				<li>Chile: <strong>SANAGRO</strong><a href="http://www.sanagro.cl" target="blank"> www.sanagro.cl</a></li>
+			</ul>
 		</div>
 		<div class="seccion-somos-quien">
 			<h2>Donde Está Orius Biotech y Los Socios Comerciales</h2>
