@@ -725,6 +725,7 @@ a:focus {
     width: 100%;
   }
   .seccion-somos-quien {
+    padding: 0px;
     width: 90%;
   }
   .seccion-somos-quien img {
