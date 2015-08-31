@@ -88,17 +88,114 @@
 				<li>Colombia: <strong>ORBIOTEC.</strong><a href="http://www.orbiotec.com" target="blank">www.orbiotec.com.</a></li>
 				<li>Ecuador: <strong>JW ASOCIADOS.</strong><a href="http://www.jwasociados.com.ec" target="blank"> www.jwasociados.com.ec.</a></li>
 				<li>Perú: <strong>SERFI.</strong><a href="http://www.serfi.com.pe" target="blank"> www.serfi.com.pe.</a></li>
-				<li>Panamá:<strong>ROCASA</strong><a href="http://www.rocasa.com" target="blank"> www.rocasa.com</a></li>
-				<li>Costa Rica:<strong>RESUSA</strong><a href="http://www.resusa.co.cr" target="blank"> www.resusa.co.cr</a></li>
+				<li>Panamá: <strong>ROCASA</strong><a href="http://www.rocasa.com" target="blank"> www.rocasa.com</a></li>
+				<li>Costa Rica: <strong>RESUSA</strong><a href="http://www.resusa.co.cr" target="blank"> www.resusa.co.cr</a></li>
 				<li>Chile: <strong>SANAGRO</strong><a href="http://www.sanagro.cl" target="blank"> www.sanagro.cl</a></li>
 			</ul>
 		</div>
+
 		<div class="seccion-somos-quien">
 			<h2>Donde Está Orius Biotech y Los Socios Comerciales</h2>
 			<img src="images/mapa.jpg" alt="ubicaciones de Orius Biotech">
 		</div>
+	</div>
+
+	<div class="Preguntas">
+	<div class="dentro">
+			<h2>Consultas Frecuentes</h2>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Las herramientas biotecnológicas de ORIUS BIOTECH en que cultivos pueden solucionar problemas agrícolas?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>En todos los cultivos agrícolas se pueden solucionar problemas con nuestras herramientas biotecnológicas y programas para el manejo biotecnológico. Si tiene algún problema que necesita resolver y nos contacta, con mucho gusto le damos orientación sobre como solucionarlo usando herramientas biotecnológicas con CALIDAD, EFICACIA Y RESPALDO.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Las herramientas biotecnológicas de ORIUS BIOTECH son tóxicas?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>No son tóxicas para el medio ambiente, para las aguas, para los cultivos y para la fauna. Se puede ingresar inmediatamente al cultivo después de aplicados y se pueden utilizar hasta momentos antes de la cosecha sin riesgo para el consumidor si los productos agrícolas son de consumo fresco.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Las herramientas biotecnológicas de ORIUS BIOTECH se usan en agricultura tradicional?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>Si se pueden usar porque el principio tecnológico de ORIUS BIOTECH es el Programa SUELO SANO para un CULTIVO SANO con buena formación radicular para una excelente bionutrición. Nuestros programas se incorporan a la agricultura tradicional para disminuir el uso de productos fitosanitarios que controlan los problemas causados por nematodos, insectos plaga, enfermedades y se mejora la asimilación de los fertilizantes minerales aplicados al suelo. De está forma los productores cumplen con la disminución del ingrediente activo agroquímico por hectárea y cumplen con los Limites Máximos de Residuos Permisibles – LMR, que están solicitando los consumidores de frutas, hortalizas y productos agrícolas en general.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Es posible utilizar las herramientas biotecnológicas de ORIUS BIOTECH en agricultura con Buenas Prácticas Agrícolas – BPA, o en agricultura orgánica?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>Si es posible incorporar los programas biotecnológicos de ORIUS BIOTECH a la producción con BPA y a la producción orgánica. Algunas de nuestras herramientas están autorizadas para uso en agricultura ecológica y agricultura orgánica por la certificadora internacional BCS Oko Garantie. Se encuentran en la hoja de cada producto. De está forma es posible incorporar las herramientas biotecnológicas a la trazabilidad que solicitan las certificadoras en el manejo de los agroinsumos para resolver los problemas fitosanitarios de los cultivos certificados.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Como solicito una visita técnica?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>Si en la zona donde está ubicada su explotación se tiene un representante de Promoción y Ventas, con mucho gusto mediante la solicitud en el Formulario de Contacto, se programa la visita. O se envía un correo con la solicitud a se envía a <label>servicioalcliente@orius.com.co</label> o a <label>orius@orius.com.co.</label></p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Donde compro las herramientas biotecnológicas de ORIUS BIOTECH?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>En cada país donde están autorizados para la venta los productos por el Ministerio de Agricultura o la Autoridad Nacional Competente – ANC, hay un socio comercial que atiende sus necesidades comerciales y apoya con un acompañamiento técnico para el uso en el campo. Ver el mapa de los socios comerciales por país.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Cual es el precio de los productos?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>Con los socios comerciales de cada país, o en la cadena comercial de distribuidores autorizados en cada país, le cotizan nuestras herramientas biotecnológicas a un precio de venta nacional y el equipo técnico lo asisten en la implementación de los programas en sus cultivos o procesos.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Como soy Distribuidor?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>El distribuidor debe llenar un formulario de inscripción que está en la página web, en los Contactos, y se envía a <label>servicioalcliente@orius.com.co</label> o a <label>orius@orius.com.co</label> . Se solicitan los documentos de apoyo tributario y empresarial para aprobarlos y autorizarlo.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Se pueden comprar los productos por la pagina web?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>Por ahora se tiene un servicio de "Pedidos" en línea para los Distribuidores Autorizados que se usa con una autorización previa después de la inscripción y el entrenamiento.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿En cuanto tiempo se entrega un pedido?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>En este momento el origen de nuestros productos es Colombia.
+			<p>En Colombia se entrega el pedido unos 3 días después de solicitarlo en línea o después de hacer el pago.</p>
+			<p>Para el exterior se deben hacer los tramites de autorización para exportación-importación.
+			<p>Nuestra organización coloca en 5 días el pedido en puerto de despacho con los tramites correspondientes para la exportación.</p>
+			<p>También depende del tiempo de tramite para el desalmacenaje en el país destino.</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Como puedo usar los productos en un país donde no estén autorizados por el Ministerio de Agricultura?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>Para iniciar un proceso comercial en todos los países, el Ministerio de Agricultura o la Autoridad Nacional Competente – ANC, autoriza el uso comercial en el país expidiendo un Certificado de Libre Venta – CLV después de llenar todos los requisitos que solicita la normativa vigente. Para importar los productos a un país deben tener el Certificado de Libre Venta vigente y cumplir todos los requerimientos aduaneros internacionales del país exportador y del país importador. ORIUS BIOTECH cumple con todos los requisitos para exportar a todos los paíse</p>
+			</div>
+
+			<div class="Preguntas-item">
+			<h4><span>+</span>¿Como hago Peticiones, Sugerencias o Quejas?</h4>
+			</div>
+			<div class="Preguntas-respuesta">
+			<p>En el formulario que se encuentra en Contactos, es posible enviar la Petición, Sugerencia o Queja. También con nuestro equipo de representantes si se necesita en una zona donde estemos presentes o con un correo a <label>servicioalcliente@orius.com.co</label> o a  <label>orius@orius.com.co.</label> En máximo 24 horas lo estamos contactando para atender o solucionar su requerimiento.</p>
+			</div>
 
 	</div>
+	</div>
+
+
 	<div class="seccion-cont">
 		<div class="seccion-1">
 			<div class="programas">

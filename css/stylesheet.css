@@ -286,6 +286,60 @@ a:focus {
   margin-top: -10px !important;
   margin-bottom: 14px;
 }
+.Preguntas {
+  background: #dceff0;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: 100%;
+}
+.Preguntas .dentro {
+  margin: 0px auto 0px auto;
+  padding: 2em 0em 2em 0em;
+  width: 60%;
+}
+.Preguntas .dentro h2 {
+  color: #3a3a3a;
+  font-family: Open-sans-r;
+  font-weight: 300;
+  font-size: 28px;
+  padding-bottom: 1em;
+}
+.Preguntas-item {
+  border-bottom: 1px solid #92cdd1;
+  cursor: pointer;
+}
+.Preguntas-item h4 {
+  color: #3a3a3a;
+  text-align: left;
+  font-family: Open-sans-r;
+  font-weight: 300;
+}
+.Preguntas-item h4 span {
+  color: #d94f47;
+  font-family: Open-sans-b;
+  font-size: 20px;
+  padding: 0.5em;
+}
+.Preguntas-respuesta {
+  width: 96%;
+  display: none;
+  border-bottom-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+  background: #254c5f;
+  margin: 0px auto 0px auto;
+  padding: 0.8em;
+  text-align: left;
+}
+.Preguntas-respuesta p {
+  color: #fff;
+  font-family: Open-sans-l;
+  margin-top: 0px;
+}
+.Preguntas-respuesta label {
+  color: #d94f47;
+  font-family: Open-sans-b;
+  font-weight: 200;
+}
 .Resultados-componente {
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -699,6 +753,12 @@ a:focus {
     -o-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+  .Preguntas {
+    width: 100%;
+  }
+  .Preguntas .dentro {
+    width: 90%;
   }
   .productos {
     margin-bottom: -1px;
