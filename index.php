@@ -79,6 +79,18 @@
             <li><span>Image 04</span><div class="centrado-corto"><h3>Programa AFE</h3><a href="#">Ver Programa AFE</a></div></li>
         </ul>
 	</div>
+	<div class="seccion-somos">
+
+		<div class="seccion-somos-quien">
+			<h2>Conozca a Orius Biotech</h2>
+			<p>Somos una organización de base tecnológica que investiga, produce, desarrolla, posiciona, comercializa y exporta soluciones biotecnológicas para los productores agrícolas, pecuarios, acuícolas y para el manejo ambiental, con menor impacto y para la producción sostenible.</p>
+		</div>
+		<div class="seccion-somos-quien">
+			<h2>Donde Está Orius Biotech y Los Socios Comerciales</h2>
+			<img src="images/mapa.jpg" alt="ubicaciones de Orius Biotech">
+		</div>
+
+	</div>
 	<div class="seccion-cont">
 		<div class="seccion-1">
 			<div class="programas">

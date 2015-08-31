@@ -338,6 +338,33 @@ a:focus {
 .redes p {
   margin: 0px;
 }
+.seccion-somos {
+  background: #fff;
+  margin: 0px auto 0px auto;
+  padding: 3.8em 0em 3.8em 0em;
+  text-align: center;
+  width: 100%;
+}
+.seccion-somos-quien {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 1.8em 0px 1.8em;
+  width: 30%;
+}
+.seccion-somos-quien p {
+  color: #666;
+  font-family: Open-sans-l;
+  text-align: left;
+  line-height: 28px;
+}
+.seccion-somos-quien h2 {
+  color: #0f3c54;
+  font-family: Open-sans-r;
+  font-weight: 300;
+}
+.seccion-somos-quien img {
+  width: 100%;
+}
 .seccion-cont {
   background: #fff;
   margin: 0px auto 0px auto;
@@ -696,6 +723,12 @@ a:focus {
   }
   .seccion-ultimas-blog hr {
     width: 100%;
+  }
+  .seccion-somos-quien {
+    width: 90%;
+  }
+  .seccion-somos-quien img {
+    width: 90%;
   }
   .seccion-texto {
     padding: 0.5em 0.6em 0.5em 0.6em;
