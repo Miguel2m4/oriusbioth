@@ -7,7 +7,9 @@
 <meta name="keywords" lang="es" content="bioinsumos, biotecnología, bioplaguicidas, plaguicidas biológicos, productos biológicos, producción agrícola, producción pecuaria, producción acuícola, problemas ambientales, agricultura orgánica, buenas prácticas agrícolas, alimentos sanos, agroexportadores, café especial, bionutrición, PGPR, producción orgánica, aguas residuales, abono orgánico, suelo sano - cultivo sano, pozos sépticos, estanques de oxidación,  sostenibilidad, producción sostenible, menor impacto ambiental, agricultura, ganaderia, banano, arroz, café, flores, invernaderos, producción tecnificada, agricultura de precisión">
 <meta name="robots" content="All">
 <meta name="description" lang="es" content="Soluciones con Biotecnología! ORIUS BIOTECH es una organización de base tecnológica que investiga, produce, desarrolla,  comercializa y exporta soluciones con biotecnología para los productores agrícolas, pecuarios, acuícolas y para el manejo ambiental, para lograr una producción con menor impacto ambiental y sostenible.">
-<title>Escritos Técnicos | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>
+<?php
+	echo'<title>'.str_replace("-"," ",$_GET['nom']).' | Orius Biotech | Soluciones para la producción agropecuaria sostenible</title>';
+?>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
 <link rel="stylesheet" href="css/owl.carousel.css" />
@@ -62,7 +64,6 @@
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script-menu.js"></script>
-	<script type="text/javascript" src="js/script_verescritos.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 </div>
 <div class="Sub-menu">
@@ -70,26 +71,23 @@
 </div>
 </header>
 <section>
+	<?php
+		include("libs/conexion.php");
+		@$esc = $_REQUEST['nom'];
+		$esc = str_replace("-"," ",$esc);
+		$bus = mysql_query("SELECT * from escritos where titulo='$esc' ");
+		$res=mysql_fetch_object($bus);
+	?>
 	<div class="tooper"></div>
 	<div class="mashead">
-	<h2>Escritos Técnicos</h2>
+		<?php echo'<h2>'.$res->titulo.'</h2>'; ?>
 	</div>
 	<div class="contenido">
-
-	<?php
-		include('libs/conexion.php');
-		$bus = mysql_query("SELECT * FROM escritos ");
-		while($res=mysql_fetch_object($bus))
-		{
-	?>
-			<div class="enlaces">
-				<a href="escrito?nom=<?php echo preg_replace('/\s+/', '-', $res->titulo); ?>" target="_blank" id="<?php echo$res->id; ?>"><p><?php echo$res->titulo; ?></p></a>
-				<span class="clicks">Vistas : <strong><?php echo$res->visitas; ?></strong></span>
-			</div>
-	<?php
-		}
-	?>
-
+		<div class="soluciones">
+			<?php
+				echo'<p>'.$res->contenido.'</p>';
+			?>
+		</div>
 	</div>
 
 
@@ -100,6 +98,7 @@
 <footer>
 	<?php include("footer.php"); ?>
 </footer>
+<script src="js/mostrar-invest.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
